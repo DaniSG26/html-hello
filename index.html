@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Conoce a Eduardo Majete y su trabajo de pintura social. Próximas presentaciones en Madrid en diciembre de 2026 y marzo de 2027."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Eduardo Majete | Pintura social" />
+    <meta
+      property="og:description"
+      content="Obras sociales de pintura, realizadas sin cobrar. Próximas presentaciones en Madrid."
+    />
+    <title>Eduardo Majete | Pintura social</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#inicio">Eduardo Majete</a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#trayectoria">Trayectoria</a></li>
+          <li><a href="#presentaciones">Próximas presentaciones</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="panel hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Artista · Pintura social</p>
+          <h1 id="hero-title">Eduardo<br />Majete</h1>
+          <p class="hero-intro">Obras sociales de pintura, sin cobrar.</p>
+          <a class="text-link" href="#sobre-mi">Conoce su trabajo <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=1400&q=85"
+            alt="Pintura abstracta de colores vivos; imagen ilustrativa, no atribuida a Eduardo Majete"
+            fetchpriority="high"
+          />
+          <figcaption>Imagen ilustrativa, no es una obra de Eduardo Majete.</figcaption>
+        </figure>
+        <span class="hero-index" aria-hidden="true">01 / 04</span>
+      </section>
+
+      <section class="panel about" id="sobre-mi" aria-labelledby="about-title">
+        <div class="section-marker" aria-hidden="true">01</div>
+        <div class="section-copy" itemscope itemtype="https://schema.org/Person">
+          <p class="eyebrow">Sobre mí</p>
+          <h2 id="about-title" itemprop="name">Eduardo Majete</h2>
+          <p class="section-lead" itemprop="description">
+            Realiza obras sociales de pintura y no cobra por ellas.
+          </p>
+        </div>
+        <p class="side-note">Obras sociales de pintura, sin cobrar.</p>
+      </section>
+
+      <section class="panel journey" id="trayectoria" aria-labelledby="journey-title">
+        <div class="section-marker" aria-hidden="true">02</div>
+        <div class="section-copy">
+          <p class="eyebrow">Trayectoria</p>
+          <h2 id="journey-title">Obras<br /><em>sociales.</em></h2>
+          <p class="section-lead">Realizadas sin cobrar.</p>
+        </div>
+        <div class="journey-stamp" aria-hidden="true">EM</div>
+      </section>
+
+      <section class="panel events" id="presentaciones" aria-labelledby="events-title">
+        <div class="section-marker" aria-hidden="true">03</div>
+        <div class="events-content">
+          <p class="eyebrow">En Madrid</p>
+          <h2 id="events-title">Próximas<br />presentaciones</h2>
+          <ol class="event-list">
+            <li itemscope itemtype="https://schema.org/Event">
+              <span class="event-date"><time datetime="2026-12">Diciembre de 2026</time></span>
+              <h3 itemprop="name">No tendras nada</h3>
+              <span class="event-place" itemprop="location" itemscope itemtype="https://schema.org/City">
+                <span itemprop="name">Madrid</span>
+              </span>
+            </li>
+            <li itemscope itemtype="https://schema.org/Event">
+              <span class="event-date"><time datetime="2027-03">Marzo de 2027</time></span>
+              <h3 itemprop="name">Si esperabas algo, no es ahora</h3>
+              <span class="event-place" itemprop="location" itemscope itemtype="https://schema.org/City">
+                <span itemprop="name">Madrid</span>
+              </span>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Eduardo Majete</span>
+      <a href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>
